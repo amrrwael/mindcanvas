@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">🧠 MindCanvas</h1>
+  <h1 align="center">MindCanvas</h1>
   <p align="center">
     <strong>Decode visual stimuli from EEG brain signals and reconstruct perceived images using deep learning.</strong>
   </p>
@@ -49,7 +49,7 @@ The system records **Visual Evoked Potentials (VEPs)** from a 14-channel EEG hea
 2. **Reconstructs** a visual approximation of the perceived image via Stable Diffusion
 
 ```
-  👁 Visual Stimulus  →  🧠 EEG Recording  →  🤖 Deep CNN  →  🖼 Image Generation
+ Visual Stimulus  →  EEG Recording  →  Deep CNN  →  Image Generation
    (Apple/Face/           (14-ch, 128Hz)      (ResNet-style)    (Stable Diffusion)
     Flower/Car)
 ```
@@ -58,10 +58,10 @@ The system records **Visual Evoked Potentials (VEPs)** from a 14-channel EEG hea
 
 | Label | Category | Conditions | Prompt |
 |-------|----------|------------|--------|
-| 0 | 🍎 Apple | A1, A2 | *"A red apple on a table"* |
-| 1 | 👤 Human Face | P1, P2 | *"A human face portrait"* |
-| 2 | 🌸 Flower | F1, F2 | *"A flower in bloom"* |
-| 3 | 🚗 Car | C1, C2 | *"A car on the road"* |
+| 0 | Apple | A1, A2 | *"A red apple on a table"* |
+| 1 | Human Face | P1, P2 | *"A human face portrait"* |
+| 2 | Flower | F1, F2 | *"A flower in bloom"* |
+| 3 | Car | C1, C2 | *"A car on the road"* |
 
 ---
 
@@ -416,5 +416,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 <p align="center">
-  Made with 🧠 by <a href="https://github.com/amrrwael">Amr Wael</a>
+  Made with by <a href="https://github.com/amrrwael">Amr Wael</a>
 </p>
