@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output artifacts
+output/
+*.png
+!docs/*.png
+
+# Large data files (download separately)
+VEP-DATA/
+*.edf
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
